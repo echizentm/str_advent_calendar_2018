@@ -12,11 +12,11 @@ class LZ77:
         '''
         string attractor のリストを取得します
         '''
-        index = 0
+        index = -1
         string_attractor_list = []
         for begin, end, ch in self.directive_list:
-            string_attractor_list.append(index)
             index += end - begin
+            string_attractor_list.append(index)
         return string_attractor_list
 
     def factorize(self) -> List[str]:

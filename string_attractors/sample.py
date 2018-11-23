@@ -57,6 +57,7 @@ if __name__ == '__main__':
     print('is_valid: {}'.format(is_string_attractors(text, sa_list)))
 
     text_list = [
+        'CDABCCDABCCA',
         'abracadabra',
         'みるみるミルキィ',
         'ケアルケアルラケアルダケアルガケアルジャ',
